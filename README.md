@@ -29,9 +29,9 @@ Linear regression Media Mix Models are looking for two things…
 Simple linear regressions for MMM operate on the assumption that the relationship between advertising spend and sales is linear, as ad spend increases, so does sales. More advanced MMMs account for the practical implications of advertising spend that cause this assumption to break. The feature engineered versions of the models here account for the saturation and carry over effects of advertising. 
 
 ## Results
-**Simple linear regression**: R2 0.71
-**Simple linear regression with manual adjustment**: R2 0.82
-**Advanced linear regression with feature engineering**: R2 0.82
+- **Simple linear regression**: R2 0.71
+- **Simple linear regression with manual adjustment**: R2 0.82
+- **Advanced linear regression with feature engineering**: R2 0.82
 
 ## Conclusion
 The feature engineered version of the model improves upon the previous model's adherence to underlying assumptions and makes the model more practical for use with unseen data. The model was able to predict sales to a pretty accurate degree (.82), return ROI computations for investments in different advertising channels, and isolate baseline sales from sales impacted by advertising. More advanced versions of this model would take into account additional advertising factors like seasonality and the relative cost of ad inventory. Further advancements would consider company and product factors like product price and customer sentiment.

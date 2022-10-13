@@ -13,4 +13,20 @@ In the data set [available here](https://medium.com/r/?url=https%3A%2F%2Fgithub.
 1. TV
 2. Radio
 3. Online Banners
+
 We also have a column representing our target variable, Product Sales.
+
+## Methods
+The projects lays out three linear regression models built with scikit-learn of varying complexities
+1. Simple linear regression
+2. Simple linear regression with manual adjustment
+3. Advanced linear regression with feature engineering
+
+Linear regression Media Mix Models are looking for two things…
+1. The coefficients of this model tell us the degree to which adjusting spend on a given channel impacts sales.
+2. Isolating the impact that one channel has on sales from a baseline of sales and other marketing allows us to find an ROI for the channel.
+
+Simple linear regressions for MMM opperate on the assumption that the relationship between advertising spend and sales is linear, as ad spend increases, so does sales. More advanced MMMs account for the the practical implications of advertising spend that cause this assumption to break. The feature engineered versions of the models here account for the saturation and carry over effects of advertising. 
+
+## Results
+**Simple linear regression**: R2 0.71

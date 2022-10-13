@@ -32,6 +32,6 @@ Simple linear regressions for MMM operate on the assumption that the relationshi
 - **Simple linear regression**: R2 0.71
 - **Simple linear regression with manual adjustment**: R2 0.82
 - **Advanced linear regression with feature engineering**: R2 0.82
-
+![MMM](Images/Advanced_LR_MMM.png)
 ## Conclusion
 The feature engineered version of the model improves upon the previous model's adherence to underlying assumptions and makes the model more practical for use with unseen data. The model was able to predict sales to a pretty accurate degree (.82), return ROI computations for investments in different advertising channels, and isolate baseline sales from sales impacted by advertising. More advanced versions of this model would take into account additional advertising factors like seasonality and the relative cost of ad inventory. Further advancements would consider company and product factors like product price and customer sentiment.
